@@ -1,0 +1,8 @@
+.demo-card-wide.mdl-card {
+    width: 465px;
+}
+
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    background-color: #F84E68;
+}

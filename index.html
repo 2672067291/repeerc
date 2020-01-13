@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <title>Rabbit Go - MeowCat Studio</title>
+    <link rel="shortcut icon" href="res/mipmap/favicon.png" type="image/x-icon"/>
+    <link href="res/layout/material.css" rel="stylesheet" />
+    <script src="src/javascript/iframe.js"></script>
+    <link href="res/layout/style.css" rel="stylesheet" />
+</head>
+<body class="mdl-base" onload="onload();">
+<div class="mdl-layout__container">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded is-small-screen">
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="margin:auto;">
+            <div class="mdl-card__title"><h2 class="mdl-card__title-text">Rabbit Go</h2></div>
+            <div class="mdl-card__supporting-text">Do you know how search algorithms work?<br/>-MlgmXyysd<br/>
+                <img src="res/drawable/article.png" width="100%" alt="Question" />
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <p class="mdl-button" disabled="disabled">
+                    <label for="answer" id="question_tip"></label>
+                </p>
+                <input class="mdl-button" type="text" placeholder="Input Answer Here" id="answer" autocomplete="off"/>
+                <p class="mdl-button" disabled="disabled">
+                    <label for="answer" id="answer_label">.meowcat.top</label>
+                </p>
+                <input id="btn_hits" class="mdl-button mdl-button--colored" type="button" value="Hits"/>
+                <input style="float:right;" id="answer_submit" class="mdl-button mdl-button--colored" type="button" value="Go"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mdl-js-snackbar mdl-snackbar" id="snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<script src="src/javascript/jquery.js"></script>
+<script src="src/javascript/material.js"></script>
+<script src="src/javascript/main.js"></script>
+</body>
+</html>
